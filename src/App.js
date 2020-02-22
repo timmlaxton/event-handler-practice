@@ -24,6 +24,7 @@ return (
       </ol>
       <hr/>
       <input type="text" onChange={this.inputChangeHandler} value={this.state.userInput} />
+      <p>{this.state.userInput}</p>
     </div>
   )
 }
